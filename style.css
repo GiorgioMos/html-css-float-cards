@@ -39,10 +39,12 @@ section p{
 }
 .col{
     width: calc(100% / 3);
-    display: inline-block;
     text-align: center;
-    background-color: #0F0E17;
     color: white;
-    margin-bottom: 5px;
+    float: left;
+    padding: 10px;
+}
+.sfondo{
+    background-color: #0F0E17;
     border-radius: 5px;
 }
