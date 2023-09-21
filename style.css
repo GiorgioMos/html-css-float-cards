@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header, main{
+    width: 70%;
+	margin: 0 auto;
+    text-align: center;
+}
+h1{
+    padding-bottom: 50px;
+    color: rgb(168, 62, 168);
+}
+header p{
+    padding-bottom: 50px;
+}
+img{
+     width: 110px;
+     float: left;
+}
+a{
+    color: rgb(61, 113, 209);
+}
+a:hover{
+    color: blue;
+}
+.clearfix{
+    clear: both;
+}
+section p{
+    padding: 5px 0;
+}
+.nome{
+    font-weight: 500;
+}
+.col{
+    width: calc(100% / 3);
+    display: inline-block;
+    text-align: center;
+    background-color: #0F0E17;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
